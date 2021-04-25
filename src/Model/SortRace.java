@@ -1,9 +1,10 @@
 package Model;
 
-public class SortRace {
+import java.util.Comparator;
 
-	public SortRace() {
-		// TODO Auto-generated constructor stub
+public class SortRace implements Comparator<Doggy> {
+
+	public int compare(Doggy o1, Doggy o2) {
+		return o1.getRace().compareTo(o2.getRace()) ;
 	}
-
 }

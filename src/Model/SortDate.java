@@ -1,9 +1,10 @@
 package Model;
 
-public class SortDate {
+import java.util.Comparator;
 
-	public SortDate() {
-		// TODO Auto-generated constructor stub
+public class SortDate implements Comparator<Doggy> {
+
+	public int compare(Doggy o1, Doggy o2) {
+		return o1.getDate().compareTo(o2.getDate()) ;
 	}
-
 }
