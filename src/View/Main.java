@@ -28,6 +28,7 @@ public void drawText() {
 		
 		textSize(18);
 		text("Fundación Peludos sin hogar", 590, 50);
-	
+		
+		
 }
 }

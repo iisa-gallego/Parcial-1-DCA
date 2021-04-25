@@ -35,6 +35,7 @@ public class Doggy implements Comparable<Doggy> { // para poder hacer el sort
 	public int compareTo(Doggy nextDog) {
 		return this.ID - nextDog.getID();
 	}
+	
 
 	// --------------------------
 	public String getName() {
